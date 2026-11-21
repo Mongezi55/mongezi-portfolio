@@ -10,7 +10,7 @@ if(process.env.NODE_ENV !== 'production'){
     dotenv.config();
 }
 
-const app = expres();
+const app = express();
 
 app.use(express.json());
 app.use(express.static(path.join(process.cwd(), 'public')));
