@@ -47,7 +47,7 @@ body {
 /* ABOUT SECTION*/
 .about {
     padding: 100px 60px;
-    height: 600px;
+    height: auto;
 }
 
 .about-content {
@@ -895,9 +895,11 @@ body {
     /* About Section */
 
     .about {
-        padding: 0px 60px;
-        padding-top: 70px;
-        height: 100vh;
+        padding: 70px 30px 40px 30px;
+        height: auto;                    /* Changed from 100vh */
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 
