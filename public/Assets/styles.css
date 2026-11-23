@@ -139,11 +139,11 @@ body {
 }
 
 .expertise-card {
-    background: none;
+    /* background: none; */
     width: 120px;
     font-size: 120px;
     border-radius: 15px;
-    color: #0d0d0d;
+    /* color: #0d0d0d; */
     transition: 0.3s;
     margin-right: 2rem;
 }
