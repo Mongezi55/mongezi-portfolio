@@ -123,8 +123,13 @@ service_card.forEach((element, index, array) =>{
 });
 
 // Makes expertise slider infinitely loop
-const slider = document.querySelector('.expertise-slider');
-slider.innerHTML += slider.innerHTML;
+
+const sliders = document.querySelectorAll('.expertise-slider');
+
+sliders.forEach((element, index, array) => {
+    element.innerHTML += element.innerHTML;
+})
+
 
 // Form submition
 const toast = document.querySelector('.toast');
