@@ -173,7 +173,7 @@ body {
 
 
 /* LAPTOP & DESKTOP VIEW */
-@media (min-width: 1024px) /* and (max-width: 1366px) */ {
+@media (min-width: 726px) /* (min-width: 1024px) and (max-width: 1366px) */ {
     
     /* NAVBAR */
 
@@ -660,7 +660,7 @@ body {
 }
 
 /* MOBILE PHONE VIEW */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 725px) /*Max changed from 480*/ {
     
     body{
         position: static;
